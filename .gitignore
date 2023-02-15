@@ -363,5 +363,5 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # more
-**/*.vcproj
-**/*.vcproj.*
+**/*.vcxproj
+**/*.vcxproj.*

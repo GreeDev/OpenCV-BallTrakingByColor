@@ -15,6 +15,6 @@ void MySpecialLineDrawer::drawLines(cv::InputOutputArray img)
 		cv::Mat color;
 		cv::cvtColor(colorHSV, color, cv::COLOR_HSV2BGR);
 		cv::line(img, points[i], points[i + 1], cv::Scalar(color.data[0], color.data[1], color.data[2]), 2);
-		colorHSV.data[0] += 8 - ((i & 0x20) << 3);
+		colorHSV.data[0] += 8;
 	}
 }
